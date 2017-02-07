@@ -21,6 +21,10 @@
       "name": "Oleg Stepura",
       "email": "oleg[at]stepura.com",
       "url": "http://oleg.stepura.com/"
+    },
+    {
+      "name": "Martin Gill",
+      "email": "martin@martinsgill.co.uk"
     }
   ],
   "repository": {
@@ -49,18 +53,14 @@
     "react-toolbox": "^2.0.0-beta.5"
   },
   "devDependencies": {
+    "@types/react": "^15.0.7",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-hot-loader": "^3.0.1",
     "autoprefixer": "^6.6.1",
-    "babel-core": "^6.21.0",
-    "babel-eslint": "~7.1.1",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-transform-node-env-inline": "^6.8.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-2": "^6.18.0",
+    "awesome-typescript-loader": "3.0.3",
     "cross-env": "^3.1.4",
     "css-loader": "^0.26.1",
     "eslint": "~3.14.0",
-    "eslint-plugin-babel": "~4.0.1",
     "eslint-plugin-react": "^6.9.0",
     "postcss-cssnext": "^2.9.0",
     "postcss-each": "^0.9.3",
@@ -69,8 +69,8 @@
     "postcss-mixins": "^5.4.1",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-style-proptype": "^2.0.0",
-    "redux-devtools-extension": "^1.0.0",
     "style-loader": "^0.13.1",
+    "typescript": "2.2.0",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
   },
