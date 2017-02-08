@@ -7,9 +7,10 @@ const theme = require<any>('./PurpleAppBar.css');
 // State is never set so we use the 'undefined' type.
 export class PurpleAppBar extends React.Component<undefined, undefined> {
     render() {
-        return <AppBar theme={theme}>
+        let { children, ...others } = this.props;
+        return <AppBar {...others} theme={theme}>
             <Logo/>
-            Hello World
+            {children}
         </AppBar>;
     }
 }

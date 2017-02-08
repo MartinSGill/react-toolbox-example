@@ -8,10 +8,12 @@ export class App extends React.Component<any, any> {
   render() {
     return (
     <div>
-      <PurpleAppBar />
+      <PurpleAppBar>
+        React-Toolbox / Typescript Example
+      </PurpleAppBar>
       <section style={{ padding: 20 }}>
         <Button label='Primary Button' primary />
-        <SuccessButton />
+        <SuccessButton label='Success' primary raised />
       </section>
     </div>);
   }
